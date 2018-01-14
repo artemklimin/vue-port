@@ -1,0 +1,37 @@
+.menu {
+    width: 380px;
+    max-width: 100%;
+    display: table;
+    border-radius: 0 0 5px 5px;
+    overflow: hidden;
+}
+
+.menu-item {
+    background: rgba(0, 191, 165, .75);
+    display: table-cell;
+    &:hover {
+        background: rgba(0, 150, 136, .59);
+    }
+    &:nth-child(2) {
+        border-left: 1px solid rgba(255, 255, 255, .5);
+        border-right: 1px solid rgba(255, 255, 255, .5);
+    }
+}
+
+.menu-link {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0 20px;
+    cursor: pointer;
+    font-weight: 400;
+}
+.menu-list{
+    width: 100%;
+    display: table;
+}

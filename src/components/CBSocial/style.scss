@@ -1,0 +1,23 @@
+.frame__social-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.frame__social-item {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.icon {
+    width: 100%;
+    height: 100%;
+    fill: #00bfa5;
+    opacity: 0.5;
+    transition: opacity .2s ease-in-out;
+    &:hover {
+        opacity: 1;
+    }
+}
